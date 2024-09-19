@@ -22,3 +22,6 @@ require('lsp_config')
 --require("lsps")
 require("configs")
 
+vim.g.moonflyTransparent = true
+vim.cmd("colorscheme moonfly")
+

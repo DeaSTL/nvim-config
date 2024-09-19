@@ -6,3 +6,5 @@ for _, file in ipairs(vim.fn.readdir(vim.fn.stdpath('config')..'/lua/lsps', [[v:
     lsp.config(lspconfig)
   end
 end
+
+vim.cmd("set omnifunc=")

@@ -1,8 +1,6 @@
 return {
-	{
-		"iagorrr/noctishc.nvim",
-		config = function()
-			vim.cmd('colorscheme noctishc')
-		end
-	},
+  "bluz71/vim-moonfly-colors",
+  name = "moonfly",
+  lazy = false,
+  priority = 1000
 }

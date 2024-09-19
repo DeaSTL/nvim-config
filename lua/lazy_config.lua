@@ -34,3 +34,4 @@ vim.cmd [[command! W :w]]
 
 vim.opt.undodir = os.getenv("HOME") .. "/.nvimundo/"
 vim.opt.undofile = true
+
